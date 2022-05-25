@@ -36,6 +36,7 @@ public class TelaRelatorio extends javax.swing.JFrame {
         initComponents();
         btnGerarRelatorio.setVisible(false);
         btnExcluirRelatorio1.setVisible(false);
+        lblFotoPerfilRelatorio.setIcon(new javax.swing.ImageIcon( "C:\\Users\\danie\\Desktop\\projetosistemasw-master\\src\\projetosistemasw\\imgs\\login2.png" ));
 
     }
 
