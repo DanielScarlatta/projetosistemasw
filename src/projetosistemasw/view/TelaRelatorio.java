@@ -67,8 +67,6 @@ public class TelaRelatorio extends javax.swing.JFrame {
         txtRCodigo = new javax.swing.JTextField();
         jSeparator6 = new javax.swing.JSeparator();
         lblRCausa1 = new javax.swing.JLabel();
-        jPanel4 = new javax.swing.JPanel();
-        lblRLaudo = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         btnSalvarRelatorio = new javax.swing.JButton();
         btnGerarRelatorio = new javax.swing.JButton();
@@ -192,18 +190,6 @@ public class TelaRelatorio extends javax.swing.JFrame {
         pnlPrincipalRelatorio.add(jPanel3);
         jPanel3.setBounds(10, 300, 700, 250);
 
-        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Informações Médicas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 20))); // NOI18N
-        jPanel4.setLayout(null);
-
-        lblRLaudo.setFont(new java.awt.Font("Candara Light", 0, 15)); // NOI18N
-        lblRLaudo.setText("Laudo Médico");
-        jPanel4.add(lblRLaudo);
-        lblRLaudo.setBounds(20, 30, 120, 30);
-
-        pnlPrincipalRelatorio.add(jPanel4);
-        jPanel4.setBounds(10, 560, 540, 160);
-
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel4.setText("Registro de acidentes");
         pnlPrincipalRelatorio.add(jLabel4);
@@ -217,7 +203,7 @@ public class TelaRelatorio extends javax.swing.JFrame {
             }
         });
         pnlPrincipalRelatorio.add(btnSalvarRelatorio);
-        btnSalvarRelatorio.setBounds(10, 740, 110, 50);
+        btnSalvarRelatorio.setBounds(20, 580, 110, 50);
 
         btnGerarRelatorio.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btnGerarRelatorio.setText("Gerar relatório");
@@ -227,7 +213,7 @@ public class TelaRelatorio extends javax.swing.JFrame {
             }
         });
         pnlPrincipalRelatorio.add(btnGerarRelatorio);
-        btnGerarRelatorio.setBounds(280, 740, 150, 50);
+        btnGerarRelatorio.setBounds(280, 580, 150, 50);
 
         btnconsultarRelatorio1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btnconsultarRelatorio1.setText("Consultar");
@@ -237,7 +223,7 @@ public class TelaRelatorio extends javax.swing.JFrame {
             }
         });
         pnlPrincipalRelatorio.add(btnconsultarRelatorio1);
-        btnconsultarRelatorio1.setBounds(150, 740, 110, 50);
+        btnconsultarRelatorio1.setBounds(150, 580, 110, 50);
 
         btnExcluirRelatorio1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btnExcluirRelatorio1.setText("Excluir");
@@ -247,7 +233,7 @@ public class TelaRelatorio extends javax.swing.JFrame {
             }
         });
         pnlPrincipalRelatorio.add(btnExcluirRelatorio1);
-        btnExcluirRelatorio1.setBounds(440, 740, 110, 50);
+        btnExcluirRelatorio1.setBounds(450, 580, 110, 50);
 
         pnlFoto.setBackground(new java.awt.Color(255, 255, 255));
         pnlFoto.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Foto", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 20))); // NOI18N
@@ -263,9 +249,9 @@ public class TelaRelatorio extends javax.swing.JFrame {
         pnlFoto.setBounds(570, 50, 210, 250);
 
         getContentPane().add(pnlPrincipalRelatorio);
-        pnlPrincipalRelatorio.setBounds(0, 0, 840, 810);
+        pnlPrincipalRelatorio.setBounds(0, 0, 800, 670);
 
-        setSize(new java.awt.Dimension(854, 817));
+        setSize(new java.awt.Dimension(816, 677));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -470,7 +456,6 @@ public class TelaRelatorio extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
@@ -482,7 +467,6 @@ public class TelaRelatorio extends javax.swing.JFrame {
     private javax.swing.JLabel lblRCausa;
     private javax.swing.JLabel lblRCausa1;
     private javax.swing.JLabel lblRData;
-    private javax.swing.JLabel lblRLaudo;
     private javax.swing.JLabel lblRLocal;
     private javax.swing.JLabel lblRNome;
     private javax.swing.JPanel pnlFoto;

@@ -70,7 +70,6 @@ public class TelaCadastro extends javax.swing.JFrame {
         pswRepitaSenha = new javax.swing.JPasswordField();
         btnProcurar = new javax.swing.JButton();
         btnExcluir = new javax.swing.JButton();
-        btmTirarFoto = new javax.swing.JButton();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
@@ -357,17 +356,6 @@ public class TelaCadastro extends javax.swing.JFrame {
         });
         pnlCadastro.add(btnExcluir);
         btnExcluir.setBounds(660, 370, 40, 60);
-
-        btmTirarFoto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/projetosistemasw/imgs/icons8-câmera-45.png"))); // NOI18N
-        btmTirarFoto.setBorderPainted(false);
-        btmTirarFoto.setContentAreaFilled(false);
-        btmTirarFoto.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btmTirarFotoActionPerformed(evt);
-            }
-        });
-        pnlCadastro.add(btmTirarFoto);
-        btmTirarFoto.setBounds(720, 380, 50, 50);
         pnlCadastro.add(jSeparator2);
         jSeparator2.setBounds(20, 80, 340, 10);
         pnlCadastro.add(jSeparator1);
@@ -499,10 +487,6 @@ public class TelaCadastro extends javax.swing.JFrame {
        lblFotoPerfil.setIcon(new javax.swing.ImageIcon( "C:\\Users\\danie\\Desktop\\projetosistemasw-master\\src\\projetosistemasw\\imgs\\login2.png" ));
     }//GEN-LAST:event_btnExcluirActionPerformed
 
-    private void btmTirarFotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmTirarFotoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btmTirarFotoActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -539,7 +523,6 @@ public class TelaCadastro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btmTirarFoto;
     private javax.swing.JButton btnExcluir;
     private javax.swing.JButton btnProcurar;
     private javax.swing.JButton btnSalvar;
